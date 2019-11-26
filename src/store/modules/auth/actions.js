@@ -15,6 +15,13 @@ export function signInSuccess(token, user) {
   };
 }
 
+export function signUpRequest(name, email, password) {
+  return {
+    type: '@auth/SIGN_UP_REQUEST',
+    payload: { name, email, password },
+  };
+}
+
 // sera utilizada para a falha tanto do SignIn quanto do SignUp
 export function signFailure() {
   return {
