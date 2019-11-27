@@ -19,8 +19,6 @@ export const Content = styled.div`
       margin-right: 20px;
       padding-right: 20px;
       border-right: 1px solid #eee;
-      height: 50px;
-      background-color: #7159c1;
     }
 
     a {
@@ -55,6 +53,7 @@ export const Profile = styled.div`
     }
   }
   img {
+    width: 32px;
     height: 32px;
     border-radius: 50%;
   }
